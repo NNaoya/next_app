@@ -1,13 +1,20 @@
-import styles from '../styles/Home.module.css'
+import axios from 'axios'
 
-export default function Home() {
+// @ts-ignore
+function Page({ users }) {
   return (
-    <div className={styles.container}>
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Hello World
-        </h1>
-      </main>
+    <div>
+      <p>id: {users[0].id}</p>
+      <p>name: {users[0].name}</p>
+      <p>age: {users[0].age}</p>
     </div>
   )
 }
+
+Page.getInitialProps = async (ctx: any) => {
+  const res = await axios.get("http://192.168.0.18:8080/users");
+  const data = await res.data;
+  return { users: data }
+}
+
+export default Page

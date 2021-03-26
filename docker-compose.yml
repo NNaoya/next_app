@@ -7,6 +7,8 @@ services:
     volumes:
       - ./:/usr/src/app
       - /usr/src/app/node_modules
-    command: sh -c "yarn dev"
+    command: >
+      sh -c "yarn install && yarn run dev & yarn run storybook"
     ports:
       - "80:80"
+      - "6006:6006"
