@@ -1,5 +1,8 @@
 import React from "react";
+import Button from '@material-ui/core/Button';
 
-export const Button = () => (
-  <button>Hello Button</button>
+export const ColorButton = () => (
+  <Button variant="contained" color="primary">
+    Hello World
+  </Button>
 );

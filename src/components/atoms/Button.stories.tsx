@@ -1,8 +1,8 @@
 import React from "react";
-import {Button} from './Button';
+import {ColorButton} from './Button';
 
 export default {
   title: "Atoms"
 };
 
-export const button = () => <Button />;
+export const button = () => <ColorButton />;
