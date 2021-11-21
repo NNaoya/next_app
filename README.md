@@ -1,6 +1,48 @@
 ## Getting Started
 
-First, run the development server:
+### create AWS Resources
+1.install terraform.<br>
+https://learn.hashicorp.com/tutorials/terraform/install-cli
+
+2.set environment value.
+terraform_setup/terraform.tfvars
+
+```bash
+aws_access_key = "XXXXXX"
+aws_secret_key = "XXXXXX"
+aws_account_id = "XXXXXX"
+aws_region     = "XXXXXX"
+aws_resource_prefix = "XXXXXX"
+```
+
+3.move terraform_setup
+```bash
+cd terraform_setup
+```
+
+4.set terraform
+```bash
+terraform init
+terraform plan
+terraform apply
+```
+
+### CircleCI
+1.create circleci account.
+
+2.set environment value.
+
+```bash
+AWS_ACCESS_KEY_ID
+AWS_SECRET_ACCESS_KEY
+AWS_DEFAULT_REGION
+AWS_ACCOUNT_ID
+AWS_RESOURCE_NAME_PREFIX
+AWS_ECR_ACCOUNT_URL
+```
+
+### Start the server
+1.run the development server:
 
 ```bash
 docker-compose up --build
