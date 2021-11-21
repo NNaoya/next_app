@@ -3,3 +3,7 @@
 .next
 node_modules
 .env.*
+terraform_setup/.terraform/providers/registry.terraform.io/hashicorp/aws/2.70.0/darwin_amd64/terraform-provider-aws_v2.70.0_x4
+terraform_setup/terraform.tfstate
+terraform_setup/terraform.tfstate.backup
+terraform_setup/.terraform.lock.hcl
