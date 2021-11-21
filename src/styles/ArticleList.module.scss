@@ -1,0 +1,12 @@
+// ArticleItem
+.articleList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.articleList::after {
+  display: block;
+  content:"";
+  width: 400px;
+}
