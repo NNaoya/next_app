@@ -5,4 +5,4 @@ export default {
   title: "Atoms"
 };
 
-export const button = () => <ColorButton />;
+export const button = () => <ColorButton children="ログイン" />;
