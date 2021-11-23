@@ -1,8 +1,12 @@
 .top {
-  margin-left: 200px;
-  width: calc(100% - 300px);
+  width: calc(100%);
+  margin-left: 20px;
 
   .topSectionTitle {
     margin-top: 40px;
+  }
+
+  .topSectionTitle:first-of-type {
+    margin-top: 0;
   }
 }

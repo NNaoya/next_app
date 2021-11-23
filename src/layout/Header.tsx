@@ -7,9 +7,8 @@ export const Header = () => (
       GTB
     </h1>
     <div className="account" >
-      <div>ログイン</div>
-      <ColorButton />
+      <ColorButton>ログイン</ColorButton>
+      <ColorButton>会員登録</ColorButton>
     </div>
   </header>
-
 )
