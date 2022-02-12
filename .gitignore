@@ -3,7 +3,13 @@
 .next
 node_modules
 .env.*
-terraform_setup/.terraform/providers/registry.terraform.io/hashicorp/aws/2.70.0/darwin_amd64/terraform-provider-aws_v2.70.0_x4
-terraform_setup/terraform.tfstate
-terraform_setup/terraform.tfstate.backup
-terraform_setup/.terraform.lock.hcl
+infla/terraform_aws_ecs_setup/.terraform/providers/registry.terraform.io/hashicorp/aws/2.70.0/darwin_amd64/terraform-provider-aws_v2.70.0_x4
+infla/terraform_aws_ecs_setup/terraform.tfstate
+infla/terraform_aws_ecs_setup/terraform.tfstate.backup
+infla/terraform_aws_ecs_setup/.terraform.lock.hcl
+infla/terraform_aws_eks_setup/.terraform
+infla/terraform_aws_eks_setup/terraform.tfstate
+infla/terraform_aws_eks_setup/terraform.tfstate.backup
+infla/terraform_aws_eks_setup/.terraform.lock.hcl
+infla/terraform_aws_batch_setup/.terraform
+infla/terraform_aws_batch_setup/.terraform.lock.hcl

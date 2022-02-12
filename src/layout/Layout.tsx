@@ -9,7 +9,10 @@ export default function Layout({ children }: {children: React.ReactNode}) {
     <>
       <Navbar />
       <Box className={styles.nav}>
-        <NavAccordion />
+        <Box className={styles.navAccordion}>
+          <NavAccordion />
+        </Box>
+
         <main>{ children }</main>
       </Box>
     </>
