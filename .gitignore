@@ -13,4 +13,3 @@ infla/terraform_aws_eks_setup/terraform.tfstate.backup
 infla/terraform_aws_eks_setup/.terraform.lock.hcl
 infla/terraform_aws_batch_setup/.terraform
 infla/terraform_aws_batch_setup/.terraform.lock.hcl
-
